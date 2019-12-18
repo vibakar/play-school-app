@@ -1,0 +1,20 @@
+<table class="table mt-5 w-75 mx-auto">
+  <thead>
+    <tr>
+      <th scope="col">ANUM</th>
+      <th scope="col">FNUM</th>
+      <th scope="col">NAME</th>
+      <th scope="col">FP</th>
+      <th scope="col">FB</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let s of studentsData">
+      <td>{{s.anum}}</td>
+      <td>{{s.fnum}}</td>
+      <td>{{s.name}}</td>
+      <td>{{s.fp}}</td>
+      <td>{{s.fb}}</td>
+    </tr>
+  </tbody>
+</table>
